@@ -1,0 +1,1 @@
+-Pagina de e-mail de marketing simples com HTML e CSS.

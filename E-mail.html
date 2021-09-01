@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pagina de e-mail do AZ</title>
+	<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		main {
+			display: flex;
+			justify-content: center;
+		}
+
+		.container {
+			width: 80%;
+			background-color: hsl(200, 85%, 48%);
+			border-radius: 15px;
+			box-shadow: 5px 5px 15px rgba(0,0,0,.5);
+			height: 100vh;
+		}
+
+		.containerinterno {
+			width: 100%;
+			background-color: #eff3f5;
+			border-radius: 30px;
+			height: 60vh;
+			align-items: center;
+			text-align: center;
+			
+		}
+
+		.textofinal {
+			text-align: center;
+		}
+
+		.d-flex {
+			display: flex;
+		}
+
+		.justify-content-center{
+			justify-content: center;
+		}
+
+		.logo {
+			width: 20%;
+		}
+
+		.topo {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+		}
+
+		.meio {
+			margin-top: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="topo" style="padding: 10px;">
+				<img class="logo" src="./img/AZlogo.png" alt="Logo">
+				</div>
+				<div class="containerinterno">
+					<p>
+						Jorge, você recebeu uma notivicação.
+					</p>
+				</div>
+				<div class="textofinal">
+					<p>
+						Esta é uma mensagem automática, por favor não responda este e-mail.<br>
+						<br>
+						AZ tecnologia agradece a sua atenção.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+</body>
+
+</html>
